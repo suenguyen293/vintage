@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/vintage.html -->
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Trang Vintage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d4a373;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #d4a373;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .content {
+            margin-bottom: 2rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+
+<header>
+    <h1>Thời Trang Vintage</h1>
+</header>
+
+<nav>
+    <a href="http://127.0.0.1:5500/vintage.html#about">Giới Thiệu</a>
+    <a href="http://127.0.0.1:5500/vintage.html#trends">Xu Hướng</a>
+    <a href="http://127.0.0.1:5500/vintage.html#tips">Mẹo Phối Đồ</a>
+    <a href="http://127.0.0.1:5500/vintage.html#gallery">Thư Viện Ảnh</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>Giới Thiệu</h2>
+    <div class="content">
+        <p>Thời trang vintage là phong cách thời trang kết hợp giữa các trang phục và phụ kiện từ những thập niên trước, đặc biệt là từ những năm 1920 đến 1980. Đây là phong cách không chỉ tôn vinh những giá trị cổ điển mà còn mang lại sự độc đáo và cá tính cho người mặc. Thời trang vintage đang ngày càng trở nên phổ biến trong xu hướng hiện đại, nơi mà sự cá nhân hóa và sự khác biệt được đặt lên hàng đầu.</p>
+    </div>
+</section>
+
+<section id="trends" class="container">
+    <h2>Xu Hướng Thời Trang Vintage</h2>
+    <div class="content">
+        <ul>
+            <li><strong>Áo sơ mi cổ điển:</strong> Những chiếc áo sơ mi với họa tiết hoa lá, kẻ sọc hoặc polka dot rất phổ biến.</li>
+            <li><strong>Đầm retro:</strong> Đầm cổ điển thập niên 50, với đường cắt chữ A và cổ cao, là biểu tượng của sự thanh lịch.</li>
+            <li><strong>Quần jeans cạp cao:</strong> Đây là xu hướng nổi bật trong phong cách vintage, mang lại vẻ năng động và phóng khoáng.</li>
+            <li><strong>Phụ kiện retro:</strong> Các loại phụ kiện như kính mắt mèo, băng đô, và túi xách nhỏ là những món đồ không thể thiếu.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="tips" class="container">
+    <h2>Mẹo Phối Đồ Vintage</h2>
+    <div class="content">
+        <ul>
+            <li>Kết hợp giữa trang phục cổ điển và hiện đại để tạo nên phong cách độc đáo.</li>
+            <li>Chọn phụ kiện phù hợp để tôn lên vẻ đẹp của bộ trang phục vintage.</li>
+            <li>Không ngại thử nghiệm với màu sắc và họa tiết đa dạng.</li>
+            <li>Lưu ý đến chất liệu và đường may để đảm bảo bộ trang phục thoải mái và vừa vặn.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="gallery" class="container">
+    <h2>Thư Viện Ảnh</h2>
+    <div class="gallery">
+        <img src="./Thời Trang Vintage_files/b93598e82b07e88220b8fe9e1ed40f3f.png" alt="Vintage fashion 1">
+        <img src="./Thời Trang Vintage_files/e8fdc1b3b0c37def1bab687a7c4eeb2b.png" alt="Vintage fashion 2">
+        <img src="./Thời Trang Vintage_files/10d7301a7a01c08ece5473735127d975.png" alt="Vintage fashion 3">
+        </div></section></body></html>
